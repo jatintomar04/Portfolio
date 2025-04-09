@@ -2,26 +2,29 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import shopmeimg from"../../assets/images/ecommerce.png"
+import propertyimg from"../../assets/images/property.png"
+import carimg from"../../assets/images/car care.png"
 
 const projects = [
   {
     name: "E Commerce",
    
     align: "right",
-    image: "../../public/images/ecommerce.png",
+    image: shopmeimg,
     link: "https://e-commerce-ten-phi-62.vercel.app/",
   },
   {
     name: "Property Pulse",
     align: "left",
-    image: "../../public/images/property.png",
+    image: propertyimg,
     link: "https://propertypulse-mocha.vercel.app",
   },
   {
     name: "AutoFix Pro",
   
     align: "right",
-    image: "../../public/images/car care.png",
+    image: carimg,
     link: "#",
   },
 
